@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-cp&*yj69l@k^h!sw1js)s29lmg1l)x1!bjc1$#zrycz(^j4=e(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['8000-rebazp-travelblog-j1mdoer8rmg.ws-eu108.gitpod.io']
 
 
 # Application definition
@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'travel',
 ]
 
 MIDDLEWARE = [
