@@ -2,16 +2,20 @@
 {% block title %}Edit post{% endblock %}
 {% block content %}
 
+{% if user.is_authenticated %}
+    <h1>Update blog post</h1>
 
-<h1>Update blog post</h1>
+    <br/>
+    <div class="mb-3">
+    <form method="POST">
+        {% csrf_token %}
+        {{  form.as_p }}
+        <button class="btn btn-secondary">Edit</button>
+    </div>
+{% else %}
 
-<br/>
-<div class="mb-3">
-<form method="POST">
-    {% csrf_token %}
-    {{  form.as_p }}
-    <button class="btn btn-secondary">Edit</button>
-</div>
+Yo're not logged in
 
+{% endif %}
 
 {% endblock %}
