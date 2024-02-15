@@ -16,7 +16,7 @@
         {% endif %}
     
     </small><br/>
-    {{ post.body }}</li>
+    {{ post.body|slice:"100" }}</li>
     
 
 {% endfor %}
