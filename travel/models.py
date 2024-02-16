@@ -23,6 +23,8 @@ class Post(models.Model):
     post_date = models.DateField(auto_now_add=True)
     category = models.CharField(max_length=250)
     likes = models.ManyToManyField(User, related_name='blog_posts')
+    draft = models.BooleanField(default=False)
+    publish = models.DateField(auto_now=False, auto_now_add=False)
 
     def total_likes(self):
         return self.likes.count()
