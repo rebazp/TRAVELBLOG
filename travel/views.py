@@ -1,8 +1,9 @@
-from django.shortcuts import render
+from django.shortcuts import render, get_object_or_404
 from django.views.generic import ListView, DetailView, CreateView, UpdateView, DeleteView
 from .models import Post, Category
 from .forms import PostForm, EditForm
-from django.urls import reverse_lazy
+from django.urls import reverse_lazy, reverse
+from django.http import HttpResponseRedirect
 
 # Create your views here.
 
@@ -51,3 +52,8 @@ class AddCategoryView(CreateView):
 def CategoryView(request, cats):
     category_posts = Post.objects.filter(category=cats)
     return render(request, 'categories.html', {'cats':cats.title(), 'category_posts':category_posts})
+
+def LikeView(request, pk):
+    post = get_object_or_404(Post, id=request.POST.get('post_id'))
+    post.likes.add(request.user)
+    return HttpResponseRedirect(reverse('article-detail', args=[str(pk)]))

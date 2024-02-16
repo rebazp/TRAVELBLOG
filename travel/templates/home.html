@@ -8,7 +8,7 @@
     <li><a href="{% url 'article-detail' post.pk %}">
     {{ post.title }}</a> 
         - <a href="{% url 'category' post.category %}">{{ post.category }}</a>
-        - {{ post.author.get_full_name }} -
+        - {{ post.author }} -
         {{ post.post_date }} <small> 
         {% if user.is_authenticated %}
             {% if user.id == post.author.id %} -
@@ -16,12 +16,15 @@
             <a href="{% url 'delete_post' post.pk %}">Delete</a>
             {% endif %}
         {% endif %}
-    
+    </small></li>
+{% endfor %}
+</ul>
+
     </small><br/>
     {{ post.body|slice:"100"|safe }}</li>
     
 
-{% endfor %}
-</ul>
+
+
 
 {% endblock %}
