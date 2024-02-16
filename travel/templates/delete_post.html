@@ -3,17 +3,20 @@
 {% block content %}
 
 {% if user.is_authenticated %}
-    <h1>Delete blog post</h1>
+    {% if user.id == post.author.id %}
+        <h1>Delete blog post</h1>
 
-    <br/>
-    <h3>Delete: {{ post.title }}</h3>
-
-    <div class="mb-3">
-    <form method="POST">
-        {% csrf_token %}
         <br/>
-        <button class="btn btn-secondary">Delete</button>
-    </div>
+        <h3>Delete: {{ post.title }}</h3>
+
+        <div class="mb-3">
+        <form method="POST">
+            {% csrf_token %}
+            <br/>
+            <button class="btn btn-secondary">Delete</button>
+        </div>
+        {% else %}
+        {% endif %}
 {% else %}
 
 Yo're not logged in
