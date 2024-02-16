@@ -5,7 +5,7 @@ from .forms import PostForm, EditForm, CommentForm
 from django.urls import reverse_lazy, reverse
 from django.http import HttpResponseRedirect
 
-# Create your views here.
+# List of views
 
 class HomeView(ListView):
     model = Post

@@ -4,7 +4,8 @@ from django.urls import reverse
 from datetime import datetime, date
 from ckeditor.fields import RichTextField
 
-# Create your models here.
+# Project models
+
 class Category(models.Model):
     name = models.CharField(max_length=250)
 

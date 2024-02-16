@@ -1,6 +1,8 @@
 from django import forms
 from .models import Post, Category, Comment
 
+# Project forms
+
 choices = Category.objects.all().values_list('name', 'name')
 
 choice_list = []
