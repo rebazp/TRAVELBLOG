@@ -216,84 +216,84 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 <summary> Home Page
 </summary>
 
-![Home Page](documentation/lighthouse_report/home-lighthouse.PNG)
+![Home Page](accounts/static/images/lighthouseloggedin.jpg)
 </details>
 
 <details>
-<summary> Home Page Logged in
+<summary> Register Page
 </summary>
 
-![Home Page Logged in](documentation/lighthouse_report/home-logged-lighthouse.PNG)
-</details>
-
-<details>
-<summary> Contact Page
-</summary>
-
-![Contact Page](documentation/lighthouse_report/contact-lighthouse.PNG)
-</details>
-
-<details>
-<summary> Sign Up Page
-</summary>
-
-![Sign Up Page](documentation/lighthouse_report/sign-up-lighthouse.PNG)
+![Register Page](accounts/static/images/lighthouseregister.jpg)
 </details>
 
 <details>
 <summary> Login Page
 </summary>
 
-![Login Page](documentation/lighthouse_report/login-lighthouse.PNG)
+![Login Page](accounts/static/images/lighthouselogin.jpg)
 </details>
 
 <details>
 <summary> Logout Page
 </summary>
 
-![Logout Page](documentation/lighthouse_report/logout-lighthouse.PNG)
+![Logout Page](accounts/static/images/lighthouseloggedout.jpg)
 </details>
 
 <details>
-<summary> Browse Cabins Page
+<summary> Category Page
 </summary>
 
-![Browse Cabins Page](documentation/lighthouse_report/browse-cabins-lighthouse.PNG)
+![Category Page](accounts/static/images/lighthousecategory.jpg)
 </details>
 
 <details>
-<summary> Make a Booking Page
+<summary> Add Post Page
 </summary>
 
-![Make a Booking Page](documentation/lighthouse_report/make-a-booking-lighthouse.PNG)
+![Add Post Page](accounts/static/images/lighthouseaddpost.jpg)
 </details>
 
 <details>
-<summary> Booking Success Page
+<summary> Add Category Page
 </summary>
 
-![Booking Success Page](documentation/lighthouse_report/booking-succesful-lighthouse.PNG)
+![Add Category Page](accounts/static/images/lighthouseaddcategory.jpg)
 </details>
 
 <details>
-<summary> Booking Overview Page
+<summary> View Post Page
 </summary>
 
-![Booking Overview Page](documentation/lighthouse_report/booking-overview-lighthouse.PNG)
+![View Post Page](accounts/static/images/lighthouseviewpost.jpg)
 </details>
 
 <details>
-<summary> Edit Booking Page
+<summary> Edit Post Page
 </summary>
 
-![Edit Booking Page](documentation/lighthouse_report/edit-booking-lighthouse.PNG)
+![Edit Post Page](accounts/static/images/lighthouseupdatepost.jpg)
 </details>
 
 <details>
-<summary> Delete Booking Page
+<summary> Delete Post Page
 </summary>
 
-![Delete Booking Page](documentation/lighthouse_report/delete-booking-lighthouse.PNG)
+![Delete Post Page](accounts/static/images/lighthousedeletepost.jpg)
+</details>
+
+<details>
+<summary> Add Comment Page
+</summary>
+
+![Add Comment Page](accounts/static/images/lighthouseaddcomment.jpg)
+</details>
+
+<details>
+<summary> Category Doesn't Exist Page
+</summary>
+
+![Category Doesn't Exist Page](accounts/static/images/lighthousenocategory.jpg)
 </details>
 
 ## Bugs
