@@ -170,78 +170,50 @@ The 'Lora' font is specified as the primary font, and the 'Domine' font is speci
 ### Wireframes
 
 <details>
-<summary> Home Page
+<summary> Home page
 </summary>
 
-![Home Page](documentation/wireframes/home-page.PNG)
+![Home Page](accounts/static/images/wireframehomepagelogout.jpg)
 </details>
 
 <details>
-<summary> Home Page when logged in
+<summary> Home page when logged in
 </summary>
 
-![Home Page when logged in](documentation/wireframes/home-page-logged-in.PNG)
+![Home page when logged in](accounts/static/images/wireframehomepagelogin.jpg)
 </details>
 
 <details>
-<summary> Contact Page
+<summary> Login page
 </summary>
 
-![Contact Page](documentation/wireframes/contact-page.PNG)
+![Login page](accounts/static/images/wireframeloginpage.jpg)
 </details>
 
 <details>
-<summary> Cabin Booking Page
+<summary> Register page
 </summary>
 
-![Cabin Booking Page](documentation/wireframes/cabin-booking-page.PNG)
+![Register page](accounts/static/images/wireframeregisterpage.jpg)
 </details>
 
 <details>
-<summary> Make a Booking Page
+<summary> Add post page
 </summary>
 
-![Make a Booking Page](documentation/wireframes/make-a-booking-page.PNG)
+![Add post page](accounts/static/images/wireframeaddpost.jpg)
 </details>
 
 <details>
-<summary> My Booking Page
+<summary> Add comment page
 </summary>
 
-![My Booking Page](documentation/wireframes/my-booking-page.PNG)
+![Add comment page](accounts/static/images/wireframeaddcomment.jpg)
 </details>
 
 <details>
-<summary> Edit Booking Page
+<summary> Add category page
 </summary>
 
-![Edit Booking Page](documentation/wireframes/edit-booking-page.PNG)
-</details>
-
-<details>
-<summary> Delete Booking Page
-</summary>
-
-![Delete Booking Page](documentation/wireframes/delete-booking-page.PNG)
-</details>
-
-<details>
-<summary> User Login Page
-</summary>
-
-![User Login Page](documentation/wireframes/user-login-page.PNG)
-</details>
-
-<details>
-<summary> User Logout Page
-</summary>
-
-![User Logout Page](documentation/wireframes/user-logout-page.PNG)
-</details>
-
-<details>
-<summary> User Sign Up Page
-</summary>
-
-![User Sign Up Page](documentation/wireframes/user-sign-up-page.PNG)
+![Add category page](accounts/static/images/wireframeaddcategory.jpg)
 </details>
