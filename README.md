@@ -488,7 +488,7 @@ Site is now live
 Please see  [TESTING.md](TESTING.md) for all the detailed testing performed.
 
 ## References
-For thhis project I have used help from the Code Institute example project I think therefore i blog and some Youtube channels. Most of the code that I have used in this project is my own which I have learned during my time studying at Code Institute.
+For thhis project I have had inspiration from the Code Institute example project, I think therefore i blog and tutorials from Youtube. Most part of the code that I've used in this project is my own, which I have learned during my time studying at Code Institute.
 
 * Code Institute project 4 [I Think Therefore I Blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_Q3/courseware/56a2da0940b4411d8a38c2b093a22c60/4565659a34d648b8b8edd063c3182180/)
 * Youtube series Django Tutorial by [Net Ninja](https://www.youtube.com/watch?v=n-FTlQ7Djqc&list=PL4cUxeGkcC9ib4HsrXEYpQnTOTZE1x0uc&index=1&ab_channel=NetNinja)
@@ -507,14 +507,15 @@ I have utilised many websites for this project and this is some of them.
 * [Django and Static Assets](https://devcenter.heroku.com/articles/django-assets)
 * [Cloudinary](https://cloudinary.com/documentation/diagnosing_error_codes_tutorial)
 * [Google](https://www.google.com/)
+* [Youtube](https://www.youtube.com)
 
 ### Content
 
-* All of the content is imaginary and written by the developer, me, Rebaz Pappiland.
+* All of the content is imaginary and written by the developer, Rebaz Pappiland.
 * All images were taken from www.google.com
 
 ### Acknowledgments
 
 * I would like to thank the tutors at Code Institute for their help.
 * I would like to thank Thomas Tomo for his amazing README which gave me inspiration for mine.
-* I would also like to extend my appreciation to the Slack community for their continuous engagement and willingness to share knowledge adn help me through my projects. The collaborative environment provided a platform for learning, troubleshooting, and gaining inspiration from fellow developers.
+* I would also like to extend my appreciation to the Slack community for their continuous engagement and willingness to share knowledge and help me through my projects. The collaborative environment provided a platform for learning, troubleshooting, and gaining inspiration from fellow developers.
