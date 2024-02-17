@@ -10,8 +10,6 @@ Comprehensive testing has been performed to ensure the website's seamless and op
 ### [Device Testing](#device-testing-1)
 ### [Code Validation](#code-validation-1)
 * [HTML Validation](#html-validation)
-* [CSS Validation](#css-validation)
-* [JavaScript Validation](#javascript-validation)
 * [Python](#python)
 ### [Lighthouse Report](#lighthouse-report-1)
 ### [Bugs](#bugs-1)
@@ -155,24 +153,6 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 </summary>
 
 ![Category Doesn't Exist Page](accounts/static/images/htmlchecknocategory.jpg)
-</details>
-
-### CSS Validation
-
-<details>
-<summary> Custom CSS (style.css)
-</summary>
-
-![Custom CSS (style.css)]()
-</details>
-
-### JavaScript Validation
-
-<details>
-<summary> Custom JS (script.js)
-</summary>
-
-![Custom JS (script.js)]()
 </details>
 
 ### Python
