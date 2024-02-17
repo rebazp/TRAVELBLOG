@@ -341,7 +341,7 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 
 ### Resolved Bugs
 
-#### Categories not showing upp correctly.
+#### Categories not working properly.
 
 * When I made a blogpost in a category and pressed on the category to see the posts in that category I got the error message "this category doesn't exist". This was because when creating categories I spelled them with capital letters while the code was looking for the url with lower case letters. I solved this by changing the name of the categories to lower letters.
 
