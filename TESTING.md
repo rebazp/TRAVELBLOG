@@ -77,91 +77,91 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 <summary> Home Page
 </summary>
 
-![Home Page](documentation/validation/home-html-validation.PNG)
+![Home Page]()
 </details>
 
 <details>
-<summary> Contact Page
+<summary> Register Page
 </summary>
 
-![Contact Page](documentation/validation/contact-html-validation.PNG)
-</details>
-
-<details>
-<summary> Sign Up Page
-</summary>
-
-![Sign Up Page](documentation/validation/sign-up-html-validation.PNG)
+![Register Page]()
 </details>
 
 <details>
 <summary> Login Page
 </summary>
 
-![Login Page](documentation/validation/login-html-validation.PNG)
+![Login Page]()
 </details>
 
 <details>
 <summary> Logout Page
 </summary>
 
-![Logout Page](documentation/validation/logout-html-validation.PNG)
+![Logout Page]()
 </details>
 
 <details>
-<summary> Browse Cabins Page
+<summary> Category Page
 </summary>
 
-![Browse Cabins Page](documentation/validation/cabin-booking-html-validation.PNG)
+![Category Page]()
 </details>
 
 <details>
-<summary> Make a Booking Page
+<summary> Add Post Page
 </summary>
 
-![Make a Booking Page](documentation/validation/make-booking-html-validation.PNG)
+![Add Post Page]()
 </details>
 
 <details>
-<summary> Booking Success Page
+<summary> Add Category Page
 </summary>
 
-![Booking Success Page](documentation/validation/booking-successful-html-validation.PNG)
+![Add Category Page]()
 </details>
 
 <details>
-<summary> Booking Overview Page
+<summary> View Post Page
 </summary>
 
-![Booking Overview Page](documentation/validation/booking-overview-html-validation.PNG)
+![View Post Page]()
 </details>
 
 <details>
-<summary> Edit Booking Page
+<summary> Edit Post Page
 </summary>
 
-![Edit Booking Page](documentation/validation/edit-booking-html-validation.PNG)
+![Edit Post Page]()
 </details>
 
 <details>
-<summary> Delete Booking Page
+<summary> Delete Post Page
 </summary>
 
-![Delete Booking Page](documentation/validation/delete-booking-html-validation.PNG)
+![Delete Post Page]()
+</details>
+
+<details>
+<summary> Add Comment Page
+</summary>
+
+![Add Comment Page]()
 </details>
 
 <details>
 <summary> 404 Error Page
 </summary>
 
-![404 Error Page](documentation/validation/404-html-validation.PNG)
+![404 Error Page]()
 </details>
 
 <details>
-<summary> 500 Error Page
+<summary> Category Doesn't Exist Page
 </summary>
 
-![500 Error Page](documentation/validation/500-page-html-validation.PNG)
+![Category Doesn't Exist Page]()
 </details>
 
 ### CSS Validation
@@ -170,7 +170,7 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 <summary> Custom CSS (style.css)
 </summary>
 
-![Custom CSS (style.css)](documentation/validation/css-validation.PNG)
+![Custom CSS (style.css)]()
 </details>
 
 ### JavaScript Validation
@@ -179,21 +179,7 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 <summary> Custom JS (script.js)
 </summary>
 
-![Custom JS (script.js)](documentation/validation/js-validation.PNG)
-</details>
-
-<details>
-<summary> Edit Booking Inline Script
-</summary>
-
-![Edit Booking Inline Script](documentation/validation/edit-booking-js-validation.PNG)
-</details>
-
-<details>
-<summary> Make a Booking Inline Script
-</summary>
-
-![Make a Booking Inline Script](documentation/validation/my-booking-js-validation.PNG)
+![Custom JS (script.js)]()
 </details>
 
 ### Python
@@ -204,51 +190,51 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 <summary> admin.py
 </summary>
 
-![admin.py](documentation/validation/admin-python-validation.PNG)
+![admin.py]()
 </details>
 
 <details>
 <summary> forms.py
 </summary>
 
-![forms.py](documentation/validation/forms-python-validation.PNG)
+![forms.py]()
 </details>
 
 <details>
 <summary> models.py
 </summary>
 
-![models.py](documentation/validation/models-python-validation.PNG)
+![models.py]()
 </details>
 
 <details>
 <summary> views.py
 </summary>
 
-![views.py](documentation/validation/views-python-validation.PNG)
+![views.py]()
 </details>
 
 <details>
 <summary> urls.py
 </summary>
 
-![urls.py](documentation/validation/urls-python-validation.PNG)
+![urls.py]()
 </details>
 
-#### woodland_retreat app
+#### travelblog app
 
 <details>
 <summary> settings.py
 </summary>
 
-![settings.py](documentation/validation/settings-python-validation.PNG)
+![settings.py](accounts/static/images/travelblogsettings.jpg)
 </details>
 
 <details>
 <summary> urls.py
 </summary>
 
-![urls.py](documentation/validation/urls-woodland-python-validation.PNG)
+![urls.py](accounts/static/images/travelblogurls.jpg)
 </details>
 
 ## Lighthouse Report
