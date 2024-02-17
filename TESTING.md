@@ -77,91 +77,84 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 <summary> Home Page
 </summary>
 
-![Home Page]()
+![Home Page](accounts/static/images/htmlcheckhome.jpg)
 </details>
 
 <details>
 <summary> Register Page
 </summary>
 
-![Register Page]()
+![Register Page](accounts/static/images/htmlcheckregister.jpg)
 </details>
 
 <details>
 <summary> Login Page
 </summary>
 
-![Login Page]()
+![Login Page](accounts/static/images/htmlchecklogin.jpg)
 </details>
 
 <details>
 <summary> Logout Page
 </summary>
 
-![Logout Page]()
+![Logout Page](accounts/static/images/htmlchecklogout.jpg)
 </details>
 
 <details>
 <summary> Category Page
 </summary>
 
-![Category Page]()
+![Category Page](accounts/static/images/htmlcheckcategory.jpg)
 </details>
 
 <details>
 <summary> Add Post Page
 </summary>
 
-![Add Post Page]()
+![Add Post Page](accounts/static/images/htmlcheckaddpost.jpg)
 </details>
 
 <details>
 <summary> Add Category Page
 </summary>
 
-![Add Category Page]()
+![Add Category Page](accounts/static/images/htmlcheckaddcategory.jpg)
 </details>
 
 <details>
 <summary> View Post Page
 </summary>
 
-![View Post Page]()
+![View Post Page](accounts/static/images/htmlcheckarticledetail.jpg)
 </details>
 
 <details>
 <summary> Edit Post Page
 </summary>
 
-![Edit Post Page]()
+![Edit Post Page](accounts/static/images/htmlcheckeditpost.jpg)
 </details>
 
 <details>
 <summary> Delete Post Page
 </summary>
 
-![Delete Post Page]()
+![Delete Post Page](accounts/static/images/htmlcheckdeletepost.jpg)
 </details>
 
 <details>
 <summary> Add Comment Page
 </summary>
 
-![Add Comment Page]()
-</details>
-
-<details>
-<summary> 404 Error Page
-</summary>
-
-![404 Error Page]()
+![Add Comment Page](accounts/static/images/htmlcheckaddcomment.jpg)
 </details>
 
 <details>
 <summary> Category Doesn't Exist Page
 </summary>
 
-![Category Doesn't Exist Page]()
+![Category Doesn't Exist Page](accounts/static/images/htmlchecknocategory.jpg)
 </details>
 
 ### CSS Validation
