@@ -205,11 +205,42 @@ All images used in blog posts are taken from google search.
 ![Add Category Page](accounts/static/images/wireframeaddcategory.jpg)
 </details>
 
+### Data Models
 
+1. AllAuth User Model
+    * Django Allauth, the User model is the default user model provided by the Django authentication system
+    * The User entity has a many-to-many relationship with the blog posts. This means that a User can have many blog posts and interact with other blog posts through likes, comments, edits, deletes etc.
+---
+2. Category Model
+    * Data model created so authenticated user can create new categories.
+    * Only Admin can change the data in the backend.
+    * Users can only view and create categories.
 
+3. Post Model
+    * As a user you can create blog posts.
+    * Admin can add, delete and update posts through djangos admin panel.
+    * Only Admin can change the data in the backend.
+    * User can see the posts created by other users.
+    * Tools to be used in posts are: title, title tag, author, body, post date, category and likes.
+    * Full CRUD functionality is available to the user.
+---
+4. Comment Model
+    * As a user you can create blog comments.
+    * Admin can add, delete and update comments through djangos admin panel.
+    * Only Admin can change the data in the backend.
+    * Tools to be used in comments are: author, body, post date, category.
+    * Full CRUD functionality is available to the user.
+    ---
 
+### User Journey 
 
+![User Journey](accounts/static/images/userjourney.jpg)
 
+### Database Scheme
+
+Entity Relationship Diagram (ERD)
+
+![DataScheme](accounts/static/images/database.jpg)
 
 ## Security Features
 
