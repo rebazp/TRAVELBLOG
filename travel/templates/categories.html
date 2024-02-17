@@ -3,36 +3,42 @@
 # Code Institute, I think therefore i blog project
 # Youtube series Django Tutorial by [Net Ninja](https://www.youtube.com/watch?v=n-FTlQ7Djqc&list=PL4cUxeGkcC9ib4HsrXEYpQnTOTZE1x0uc&index=1&ab_channel=NetNinja)
 # Youtube series Python Django Tutorial by [Corey Schafer](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=1&ab_channel=CoreySchafer)
-# Yoube Python Django Web Framework by [FreeCodeCamp](https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org)
+# Youtube Python Django Web Framework by [FreeCodeCamp](https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org)
 -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-{% extends 'base.html' %}
-
-{% block content %}
-
-{% if category_posts %}
-    <h1>{{ cats }}</h1>
-
-    <ul>
-    {% for post in category_posts %}
-        <li><a href="{% url 'article-detail' post.pk %}">{{ post.title }}</a>
-            - {{ post.author.first_name }}
-            {{ post.author.last_name }} -
-            {{ post.post_date }} <small> 
-            {% if user.is_authenticated %} -
-                <a href="{% url 'update_post' post.pk %}">Edit</a>
-                <a href="{% url 'delete_post' post.pk %}">Delete</a>
-            {% endif %}
-        
-        </small><br/>
-        {{ post.body|slice:"100"|safe }}</li>
-    {% endfor %}
-    </ul>
-
-{% else %}
-     <h1>This category doesn't exist</h1>
-{% endif %}
-
-{% endblock %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Category</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block content %}
+    
+    {% if category_posts %}
+        <h1>{{ cats }}</h1>
+    
+        <ul>
+        {% for post in category_posts %}
+            <li>
+                <a href="{% url 'article-detail' post.pk %}">{{ post.title }}</a>
+                - {{ post.author.first_name }} {{ post.author.last_name }} - {{ post.post_date }}
+                <small> 
+                {% if user.is_authenticated %} -
+                    <a href="{% url 'update_post' post.pk %}">Edit</a>
+                    <a href="{% url 'delete_post' post.pk %}">Delete</a>
+                {% endif %}
+                </small><br/>
+                {{ post.body|slice:"100"|safe }}
+            </li>
+        {% endfor %}
+        </ul>
+    
+    {% else %}
+         <h1>This category doesn't exist</h1>
+    {% endif %}
+    
+    {% endblock %}  
+</body>
 </html>

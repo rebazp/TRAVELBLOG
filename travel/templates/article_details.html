@@ -3,66 +3,66 @@
 # Code Institute, I think therefore i blog project
 # Youtube series Django Tutorial by [Net Ninja](https://www.youtube.com/watch?v=n-FTlQ7Djqc&list=PL4cUxeGkcC9ib4HsrXEYpQnTOTZE1x0uc&index=1&ab_channel=NetNinja)
 # Youtube series Python Django Tutorial by [Corey Schafer](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=1&ab_channel=CoreySchafer)
-# Yoube Python Django Web Framework by [FreeCodeCamp](https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org)
+# Youtube Python Django Web Framework by [FreeCodeCamp](https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org)
 -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-{% extends 'base.html' %}
-{% block title %}{{ post.title_tag }}{% endblock %}
-
-{% block content %}
-
-    <h1>{{ post.title }}</h1>
-    <small>By: {{ post.author.get_full_name }} - {{ post.post_date }}
-        
-        {% if user.is_authenticated %}
-            {% if user.id == post.author.id %}
-
-            - <a href="{% url 'update_post' post.pk %}">Edit</a>
-            <a href="{% url 'delete_post' post.pk %}">Delete</a>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Article Detail</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block title %}{{ post.title_tag }}{% endblock %}
+    {% block content %}
+    
+        <h1>{{ post.title }}</h1>
+        <small>By: {{ post.author.get_full_name }} - {{ post.post_date }}
+            {% if user.is_authenticated %}
+                {% if user.id == post.author.id %}
+                    - <a href="{% url 'update_post' post.pk %}">Edit</a>
+                    <a href="{% url 'delete_post' post.pk %}">Delete</a>
+                {% endif %}
             {% endif %}
-        {% endif %}
-    </small><br/>
-    <hr>
-    <br/>
-    {{ post.body|safe }}
-
-    <br/>
-    <br/>
-    <a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
-    <br/><br/><br/><hr><br/>
-    <form action="{% url 'like_post' post.pk %}" method="POST">
-        {% csrf_token %}
-        {% if user.is_authenticated %}
-            {% if liked %}
-                <button type="submit" name="post_id" value="{{ post.id }}" class="btn btn-danger btn-sm">Unlike</button>
-            {% else %}
-                <button type="submit" name="post_id" value="{{ post.id }}" class="btn btn-primary btn-sm">Like</button>
-            {% endif %}
-        {% else %}
-            <a href="{% url 'login' %}">Login</a> to like
-        {% endif %}
-        - {{ total_likes }} Likes
-    </form>
-
-<br/>
-<h2>Comments</h2><br/>
-
-{% if not post.comments.all %}
-    No comments <a href="{% url 'add_comment' post.pk %}">
-        Add comment</a>
-{% else %}
-
-    {% for comment in post.comments.all %}
-        <strong>
-            {{ comment.name }} -
-            {{ comment.date_added }}
-        </strong>
+        </small><br/>
+        <hr>
         <br/>
-        {{ comment.body }}<br/><br/>
-    {% endfor %}
-    <a href="{% url 'add_comment' post.pk %}">Add comment</a><br/><br/>
-{% endif %}
-
-{% endblock %}
+        {{ post.body|safe }}
+    
+        <br/>
+        <br/>
+        <a href="{% url 'home' %}" class="btn btn-secondary">Back</a>
+        <br/><br/><br/><hr><br/>
+        <form action="{% url 'like_post' post.pk %}" method="POST">
+            {% csrf_token %}
+            {% if user.is_authenticated %}
+                {% if liked %}
+                    <button type="submit" name="post_id" value="{{ post.id }}" class="btn btn-danger btn-sm">Unlike</button>
+                {% else %}
+                    <button type="submit" name="post_id" value="{{ post.id }}" class="btn btn-primary btn-sm">Like</button>
+                {% endif %}
+            {% else %}
+                <a href="{% url 'login' %}">Login</a> to like
+            {% endif %}
+            - {{ total_likes }} Likes
+        </form>
+    
+    <br/>
+    <h2>Comments</h2><br/>
+    
+    {% if not post.comments.all %}
+        No comments <a href="{% url 'add_comment' post.pk %}">Add comment</a>
+    {% else %}
+        {% for comment in post.comments.all %}
+            <strong>
+                {{ comment.name }} - {{ comment.date_added }}
+            </strong>
+            <br/>
+            {{ comment.body }}<br/><br/>
+        {% endfor %}
+        <a href="{% url 'add_comment' post.pk %}">Add comment</a><br/><br/>
+    {% endif %}
+    {% endblock %}   
+</body>
 </html>

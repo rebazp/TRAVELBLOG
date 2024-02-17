@@ -3,34 +3,41 @@
 # Code Institute, I think therefore i blog project
 # Youtube series Django Tutorial by [Net Ninja](https://www.youtube.com/watch?v=n-FTlQ7Djqc&list=PL4cUxeGkcC9ib4HsrXEYpQnTOTZE1x0uc&index=1&ab_channel=NetNinja)
 # Youtube series Python Django Tutorial by [Corey Schafer](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=1&ab_channel=CoreySchafer)
-# Yoube Python Django Web Framework by [FreeCodeCamp](https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org)
+# Youtube Python Django Web Framework by [FreeCodeCamp](https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org)
 -->
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-{% extends 'base.html' %}
-{% block title %}Delete post{% endblock %}
-{% block content %}
-
-{% if user.is_authenticated %}
-    {% if user.id == post.author.id %}
-        <h1>Delete blog post</h1>
-
-        <br/>
-        <h3>Delete: {{ post.title }}</h3>
-
-        <div class="mb-3">
-        <form method="POST">
-            {% csrf_token %}
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Post</title>
+</head>
+<body>
+    {% extends 'base.html' %}
+    {% block title %}Delete post{% endblock %}
+    {% block content %}
+    
+    {% if user.is_authenticated %}
+        {% if user.id == post.author.id %}
+            <h1>Delete blog post</h1>
+    
             <br/>
-            <button class="btn btn-secondary">Delete</button>
-        </div>
-        {% else %}
+            <h3>Delete: {{ post.title }}</h3>
+    
+            <div class="mb-3">
+            <form method="POST">
+                {% csrf_token %}
+                <br/>
+                <button class="btn btn-secondary">Delete</button>
+            </form>
+            </div>
         {% endif %}
-{% else %}
-
-Yo're not logged in
+    {% else %}
     
-{% endif %}
-    
-{% endblock %}
+    You're not logged in
+        
+    {% endif %}
+        
+    {% endblock %}   
+</body>
 </html>
