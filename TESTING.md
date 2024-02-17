@@ -184,44 +184,44 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 
 ### Python
 
-#### cabin_bookings app
+#### travel app
 
 <details>
 <summary> admin.py
 </summary>
 
-![admin.py]()
+![admin.py](accounts/static/images/travelappadmin.jpg)
 </details>
 
 <details>
 <summary> forms.py
 </summary>
 
-![forms.py]()
+![forms.py](accounts/static/images/travelappforms.jpg)
 </details>
 
 <details>
 <summary> models.py
 </summary>
 
-![models.py]()
+![models.py](accounts/static/images/travelappmodels.jpg)
 </details>
 
 <details>
 <summary> views.py
 </summary>
 
-![views.py]()
+![views.py](accounts/static/images/travelappviews.jpg)
 </details>
 
 <details>
 <summary> urls.py
 </summary>
 
-![urls.py]()
+![urls.py](accounts/static/images/travelappurls.jpg)
 </details>
 
-#### travelblog app
+#### travelblog project
 
 <details>
 <summary> settings.py
