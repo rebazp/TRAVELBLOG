@@ -341,6 +341,6 @@ Device testing was conducted on a variety of phone models, including Samsung Gal
 
 ## Features Testing
 
-(accounts/static/images/featuretesting.jpg)
+![feature.testing](accounts/static/images/featuretesting.jpg)
 
 Return to [README](README.md)
