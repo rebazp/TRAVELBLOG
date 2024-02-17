@@ -5,7 +5,7 @@ can leave blog posts, add categories, comments and likes. This simple and easy t
 
 ![Home Screen](accounts/static/images/responsive.jpg)
 
-[View Rebaz Travel Blog live website here](https://rebazptravelblog-3e0a8b8b8d3b.herokuapp.com/)
+[View Rebaz Travel Blog Live Website Here](https://rebazptravelblog-3e0a8b8b8d3b.herokuapp.com/)
 ---
 
 ## Table of Contents
@@ -49,7 +49,7 @@ Join in on simple to use travel blog and share travel memories and tips. No adva
 
 ### Project Goals
 
-The goal with this project is to share traveltips and memories through text and pictures.
+The goal with this project is to share traveltips and memories through text and pictures. Engage with readers through creating blog posts and comments. Also give the ability for users to create their own categories.
 
 ### Agile Methodology
 
@@ -116,20 +116,17 @@ Agile Methodology was used to help prioritize and organize tasks, writting the u
 * Given a logged in user, they can read a blog post
 * Given a logged in user, they can update a blog post
 * Given a logged in user, they can delete a blog post
-8. Create drafts
-* Given a logged in user, they can save a draft blog post
-* Then they can finish the content at a later time
-9. Likes
+8. Likes
 * Given one or more user likes the user / admin can view them
 
-Detailed look can be found in the [project board](https://github.com/users/rebazp/projects/6)
+Detailed look can be found in the [Project Board](https://github.com/users/rebazp/projects/6)
 
 ### Target Audience
 
 * People seeking travel tips.
 * People seeking to share travel tips.
 
-### First time user
+### First Time User
 
 * Simple and intuitive blog with easy navigation.
 * Easy Registration process.
@@ -142,7 +139,7 @@ Detailed look can be found in the [project board](https://github.com/users/rebaz
 * Give comments likes and dislikes.
 * Create new categories.
 
-### Admin user
+### Admin User
 
 * Secure and separate login portal for admin users with appropriate access control.
 * Access to an admin dashboard for managing users, posts, comments and likes/dislikes.
@@ -169,42 +166,42 @@ All images used in blog posts are taken from google search.
 <summary> Home page when logged in
 </summary>
 
-![Home page when logged in](accounts/static/images/wireframehomepagelogin.jpg)
+![Home Page When Logged In](accounts/static/images/wireframehomepagelogin.jpg)
 </details>
 
 <details>
 <summary> Login page
 </summary>
 
-![Login page](accounts/static/images/wireframeloginpage.jpg)
+![Login Page](accounts/static/images/wireframeloginpage.jpg)
 </details>
 
 <details>
 <summary> Register page
 </summary>
 
-![Register page](accounts/static/images/wireframeregisterpage.jpg)
+![Register Page](accounts/static/images/wireframeregisterpage.jpg)
 </details>
 
 <details>
 <summary> Add post page
 </summary>
 
-![Add post page](accounts/static/images/wireframeaddpost.jpg)
+![Add Post Page](accounts/static/images/wireframeaddpost.jpg)
 </details>
 
 <details>
 <summary> Add comment page
 </summary>
 
-![Add comment page](accounts/static/images/wireframeaddcomment.jpg)
+![Add Comment Page](accounts/static/images/wireframeaddcomment.jpg)
 </details>
 
 <details>
 <summary> Add category page
 </summary>
 
-![Add category page](accounts/static/images/wireframeaddcategory.jpg)
+![Add Category Page](accounts/static/images/wireframeaddcategory.jpg)
 </details>
 
 
@@ -241,16 +238,16 @@ All images used in blog posts are taken from google search.
 * Home page
     * Displays a navigation bar at the top and blog posts in the center of the page.
 
-![Home page](accounts/static/images/homepage.jpg)
+![Home Page](accounts/static/images/homepage.jpg)
 
 * Once logged in the Add post and Add category links appear.
 
-![Logged in](accounts/static/images/mainpage.jpg)
+![Logged In](accounts/static/images/mainpage.jpg)
 
 * Category navbar
     * Display a dropdown navbar with categories.
 
-![Category navbar](accounts/static/images/categorynavbar.jpg)
+![Category Navbar](accounts/static/images/categorynavbar.jpg)
 
 * Navigation Bar
     * It differs if its a user or visitor.
@@ -264,7 +261,7 @@ All images used in blog posts are taken from google search.
 * Sign up
     * User can create an account.
 
-![Sign up](accounts/static/images/register.jpg)
+![Sign Ip](accounts/static/images/register.jpg)
 
 * Login
     * User can login into an account, if they have created one.
@@ -276,47 +273,47 @@ All images used in blog posts are taken from google search.
     * Form validation is implemented to make sure form are submitted correctly and if there is an error user will be notified with alert message.
     * When user creates blog post they get redirected to homepage.
 
-![Create blog post](accounts/static/images/addpost.jpg)
+![Create Blog Post](accounts/static/images/addpost.jpg)
 
 * Update blog post
     * Users can update blog post they created by pressing on the edit button.
     * When user update blog post they get redirected to homepage.
 
-![Update blog post](accounts/static/images/uppdatepost.jpg)
+![Update Blog Post](accounts/static/images/uppdatepost.jpg)
 
 * Delete blog post
     * Users can delete a blog post they created by pressing on the delete button.
     * When user delete blog post they get redirected to homepage.
 
-![Delete blog post](accounts/static/images/deletepost.jpg)
+![Delete Blog Post](accounts/static/images/deletepost.jpg)
 
 * View blog post
     * When user press on a blog post they can see the content of the blog post, comments and likes. If they are the creator of the blog post then they can edit or delete blog post.
     
-![View blog post](accounts/static/images/postview.jpg)
+![View Blog Post](accounts/static/images/postview.jpg)
 
 * Comment blog post
     * Users can comment blog post by pressing on the comment button.
     * When user comment blog post they get redirected to homepage.
 
-![Comment blog post](accounts/static/images/addcomment.jpg)
+![Comment Blog Post](accounts/static/images/addcomment.jpg)
 
 * Add category
     * User can add categories to expand the blog further.
     * When user comment blog post they get redirected to homepage.
 
-![Add category](accounts/static/images/addcategory.jpg)
+![Add Category](accounts/static/images/addcategory.jpg)
 
 * Inside category
     * Inside the category page the user can see which posts have been made in that specific category.
 
-![Category page](accounts/static/images/insidecategory.jpg)
+![Category Page](accounts/static/images/insidecategory.jpg)
 
 * Like & dislike blog post
     * User can like or dislike blog posts.
     * When user have pressed the button the total likes changes.
 
-![Like & dislike](accounts/static/images/likes.jpg)
+![Like & Dislike](accounts/static/images/likes.jpg)
 
 * Admin Features
     * Django built in admin panel allows admin control over the website.
@@ -366,7 +363,7 @@ All images used in blog posts are taken from google search.
 
 ## Deployment and Local Developement
 
-Live deployment can be found on this [View Rebaz Travel Blog live website here](https://rebazptravelblog-3e0a8b8b8d3b.herokuapp.com/)
+Live deployment can be found on this [View Rebaz Travel Blog Live Website Here](https://rebazptravelblog-3e0a8b8b8d3b.herokuapp.com/)
 
 ### Local Developement
 
@@ -449,7 +446,7 @@ Please see  [TESTING.md](TESTING.md) for all the detailed testing performed.
 ## References
 For thhis project I have used help from the Code Institute example project I think therefore i blog and some Youtube channels. Most of the code that I have used in this project is my own which I have learned during my time studying at Code Institute.
 
-* Code Institute project 4 [I think therefore i blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_Q3/courseware/56a2da0940b4411d8a38c2b093a22c60/4565659a34d648b8b8edd063c3182180/)
+* Code Institute project 4 [I Think Therefore I Blog](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+FSD101_WTS+2023_Q3/courseware/56a2da0940b4411d8a38c2b093a22c60/4565659a34d648b8b8edd063c3182180/)
 * Youtube series Django Tutorial by [Net Ninja](https://www.youtube.com/watch?v=n-FTlQ7Djqc&list=PL4cUxeGkcC9ib4HsrXEYpQnTOTZE1x0uc&index=1&ab_channel=NetNinja)
 * Youtube series Python Django Tutorial by [Corey Schafer](https://www.youtube.com/watch?v=UmljXZIypDc&list=PL-osiE80TeTtoQCKZ03TU5fNfx2UY6U4p&index=1&ab_channel=CoreySchafer)
 * Yoube Python Django Web Framework by [FreeCodeCamp](https://www.youtube.com/watch?v=F5mRW0jo-U4&ab_channel=freeCodeCamp.org)
