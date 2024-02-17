@@ -31,6 +31,7 @@ can leave blog posts, add categories, comments and likes. This simple and easy t
 * [Databases Used](#databases-used)
 * [Frameworks Used](#frameworks-used)
 * [Programs Used](#programs-used)
+* [Installed Packages](#installed-packages)
 ### [Deployment and Local developement](#deployment-and-local-developement-1)
 * [Local Developement](#local-developement)
 * [ElephantSQL Database](#elephantsql-database)
@@ -360,6 +361,17 @@ All images used in blog posts are taken from google search.
 * [W3C Markup Validation Service](https://validator.w3.org/) - Used to validate HTML.
 * [CSS Validation Service](https://jigsaw.w3.org/css-validator/) - Used to validate CSS.
 * [CI Python Linter](https://pep8ci.herokuapp.com/#) - Used to validate Python.
+
+### Installed Packages
+- asgiref==3.7.2
+- dj-database-url==0.5.0
+- Django==4.2.10
+- django-ckeditor==6.7.1
+- django-js-asset==2.2.0
+- gunicorn==20.1.0
+- psycopg2==2.9.9
+- sqlparse==0.4.4
+- whitenoise==6.5.0
 
 ## Deployment and Local Developement
 
