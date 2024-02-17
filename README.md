@@ -358,6 +358,7 @@ Entity Relationship Diagram (ERD)
 * Uppload own pictures and not just urls.
 * Show post images on home page.
 * More advanced design and layout.
+* Feature to abort delete post and go straight back viewed post.
 * For the purposes of this project these implemenation were not necessary.
 
 ## Technologies Used
